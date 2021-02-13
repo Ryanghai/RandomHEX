@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.hexclolor {
+    text-transform: capitalize;
+}
+
+.hex {
+    font-size: 3rem;
+}
+
+.hexBtn {
+    color: white;
+    border: 3px solid white;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: 1.6rem;
+    padding: 0.25rem 0.5re;
+    cursor: pointer;
+    outline: none;
+}
+
+.hexBtn:hover {
+    background-color: rgba(0, 0, 0);
+}
